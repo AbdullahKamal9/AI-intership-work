@@ -1,0 +1,37 @@
+Dataset shape: (150, 4)
+Features: ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
+Classes: ['setosa', 'versicolor', 'virginica']
+
+Train samples: 120 | Test samples: 30
+
+--- Sample predictions (first 10 test rows) ---
+Actual: setosa      | Predicted: setosa      | OK
+Actual: virginica   | Predicted: virginica   | OK
+Actual: versicolor  | Predicted: versicolor  | OK
+Actual: versicolor  | Predicted: versicolor  | OK
+Actual: setosa      | Predicted: setosa      | OK
+Actual: versicolor  | Predicted: versicolor  | OK
+Actual: setosa      | Predicted: setosa      | OK
+Actual: setosa      | Predicted: setosa      | OK
+Actual: virginica   | Predicted: virginica   | OK
+Actual: versicolor  | Predicted: versicolor  | OK
+
+Test Accuracy: 96.67%
+
+Confusion Matrix:
+ [[10  0  0]
+ [ 0  9  1]
+ [ 0  0 10]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       1.00      0.90      0.95        10
+   virginica       0.91      1.00      0.95        10
+
+    accuracy                           0.97        30
+   macro avg       0.97      0.97      0.97        30
+weighted avg       0.97      0.97      0.97        30
+
+New flower [5.1, 3.5, 1.4, 0.2] -> setosa

@@ -1,0 +1,19 @@
+Epoch   1 | loss 1.1096 | train acc 79.40% | test acc 78.06%
+Epoch  10 | loss 0.1645 | train acc 96.73% | test acc 94.72%
+Epoch  20 | loss 0.0954 | train acc 97.91% | test acc 95.83%
+Epoch  30 | loss 0.0695 | train acc 98.68% | test acc 96.67%
+Epoch  40 | loss 0.0520 | train acc 99.23% | test acc 97.22%
+Epoch  50 | loss 0.0406 | train acc 99.51% | test acc 96.67%
+Epoch  60 | loss 0.0329 | train acc 99.79% | test acc 96.94%
+Epoch  70 | loss 0.0284 | train acc 99.79% | test acc 97.22%
+Epoch  80 | loss 0.0233 | train acc 99.86% | test acc 96.67%
+Epoch  90 | loss 0.0200 | train acc 99.86% | test acc 96.67%
+Epoch 100 | loss 0.0181 | train acc 99.86% | test acc 96.67%
+
+Final Train Accuracy: 99.86%
+Final Test Accuracy : 96.67%
+
+First 15 predictions: [5 2 8 1 7 2 6 2 6 5 0 5 9 3 4]
+First 15 actual     : [5 2 8 1 7 2 6 2 6 5 0 5 9 3 4]
+
+Charts saved in: /home/claude/ai-course-projects/week4_neural_network/outputs

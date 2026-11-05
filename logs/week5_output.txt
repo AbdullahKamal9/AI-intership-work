@@ -1,0 +1,22 @@
+Dataset: 569 rows, 30 features
+Missing values: 0
+Logistic Regression  CV accuracy: 98.02% | Test accuracy: 98.25%
+SVM                  CV accuracy: 97.14% | Test accuracy: 98.25%
+Random Forest        CV accuracy: 96.04% | Test accuracy: 95.61%
+
+Best model: Logistic Regression
+
+Classification report:
+               precision    recall  f1-score   support
+
+   malignant       0.98      0.98      0.98        42
+      benign       0.99      0.99      0.99        72
+
+    accuracy                           0.98       114
+   macro avg       0.98      0.98      0.98       114
+weighted avg       0.98      0.98      0.98       114
+
+Charts saved in: /home/claude/ai-course-projects/week5_intelligent_system/outputs
+
+[DEMO] Input: {'worst perimeter': 178.6, 'worst area': 1926.0, 'worst concave points': 0.1941, 'mean concave points': 0.1144, 'worst radius': 25.05}
+[DEMO] Prediction: malignant (confidence 99.7%)
